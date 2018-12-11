@@ -1,0 +1,12 @@
+.ddl-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.ddl-rating_stars {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 8px;
+  margin-right: 16px;
+}
