@@ -2,12 +2,14 @@ import React from 'react';
 import Star from './star/star';
 import Chevron from './chevron/chevron';
 import Person from './person/person';
+import Time from './time/time';
 
 const Icon = (props) => {
   const Icons = {
     star: Star,
     chevron: Chevron,
     person: Person,
+    time: Time
   };
   const TheIcon = Icons[props.icon || 'chevron'];
   return (
