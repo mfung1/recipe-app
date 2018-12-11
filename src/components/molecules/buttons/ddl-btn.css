@@ -10,11 +10,23 @@
   transition: box-shadow .3s;
   vertical-align: middle;
   white-space: nowrap;
+  margin-right: 0;
+}
+
+.ddl-btn-cnt {
+  text-align: center;
 }
 
 @media(min-width: 504px) {
   .ddl-btn {
     min-width: 2.5rem;
+    margin-right: 16px;
+  }
+  .ddl-btn:last-child {
+    margin-right: 0;
+  }
+  .ddl-btn-cnt {
+    text-align: left;
   }
 }
 

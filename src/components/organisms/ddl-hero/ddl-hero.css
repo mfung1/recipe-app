@@ -3,17 +3,26 @@
   background-position: center;
   padding-bottom: 87.5%;
   width: 100%;
+  position: absolute;
+  z-index: 0;
 }
 
-@media (min-width: 756px) {
-  .ddl-hero_img {
-    padding-bottom: 31.7%;
-  }
-}
-
-.recipe-details {
+.ddl-hero {
   padding: 32px 12px 12px;
   background-color: #fff;
   max-width: 1200px;
-  margin: -92px 12px 0;
+  margin: 200px 12px 36px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 504px) {
+  .ddl-hero_img {
+    padding-bottom: 31.7%;
+  }
+  .ddl-hero {
+    flex-direction: row;
+  }
 }
