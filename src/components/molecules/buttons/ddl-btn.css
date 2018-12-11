@@ -1,0 +1,70 @@
+.ddl-btn {
+  border-radius: 1.25rem;
+  display: inline-block;
+  font-size: 0.625rem;
+  max-height: 2.5rem;
+  min-height: 2.5rem;
+  min-width: 15rem;
+  padding: 0.4375rem 1.25rem;
+  text-align: center;
+  transition: box-shadow .3s;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+@media(min-width: 504px) {
+  .ddl-btn {
+    min-width: 2.5rem;
+  }
+}
+
+.ddl-lbl {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-right: 0.1875rem;
+  position: relative;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-top: 0.0625rem;
+  font-family: boldfont, Arial, Helvetica, sans-serif;
+}
+.ddl-lbl:after {
+  border-bottom: 0.0625rem solid transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  left: 0;
+  position: absolute;
+  transition: border .3s ease-in-out;
+  width: 100%;
+}
+.ddl-btn-flld {
+  background-color: #00539f;
+  color: #ffffff;
+}
+.ddl-btn-flld:hover,
+.ddl-btn-flld:focus {
+  box-shadow: 0 0 0 4px rgba(#00539f, .4);
+  transition: box-shadow .3s ease-in-out;
+}
+.ddl-btn-flld:hover .ddl-lbl:after,
+.ddl-btn-flld:focus .ddl-lbl:after {
+  border-bottom-color: #ffffff;
+  transition: border-bottom-color .3s ease-in-out;
+}
+.ddl-btn-hllw {
+  box-shadow: inset 0 0 0 2px #00539f;
+  color: #00539f;
+  background-color: transparent;
+}
+.ddl-btn-hllw:hover,
+.ddl-btn-hllw:focus {
+  box-shadow: 0 0 0 4px rgba(#00539f, .4);
+  transition: box-shadow .3s ease-in-out;
+}
+.ddl-btn-hllw:hover .ddl-lbl:after,
+.ddl-btn-hllw:focus .ddl-lbl:after {
+  border-bottom-color: #00539f;
+  transition: border-bottom-color .3s ease-in-out;
+}
