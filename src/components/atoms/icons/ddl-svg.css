@@ -1,0 +1,15 @@
+.ddl-svg {
+  display: inline-block;
+  fill: none;
+  stroke-width: 1.2;
+  vertical-align: middle;
+}
+.ddl-svg--wht {
+  stroke: #ffffff;
+}
+.ddl-svg--blu {
+  stroke: #00539f;
+}
+.ddl-svg--yllw {
+  fill: #ffdc08;
+}
