@@ -18,7 +18,7 @@
   z-index: 1;
 }
 
-@media (min-width: 504px) {
+@media (min-width: 756px) {
   .ddl-hero_img {
     padding-bottom: 31.7%;
   }

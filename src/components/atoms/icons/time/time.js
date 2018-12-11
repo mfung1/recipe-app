@@ -2,9 +2,10 @@ import React from 'react';
 
 const Time = () => {
   return (
-    <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg">
-      <path stroke="#00539f" fill="transparent" d="M20.5 11a9.5 9.5 0 0 1-9.5 9.5A9.5 9.5 0 0 1 1.5 11 9.5 9.5 0 0 1 11 1.5a9.5 9.5 0 0 1 9.5 9.5z"/>
-      <path stroke="#00539f" fill="transparent" d="M11 4.5v7H6"/>
+    <svg width="20" height="20" viewBox="0 0 42 42" preserveAspectRatio="xMidyMid meet">
+      <g stroke="#00539F" stroke-width="2.4" fill="none" fill-rule="evenodd">
+        <path d="M40 21c0 10.494-8.506 19-19 19S2 31.494 2 21 10.506 2 21 2s19 8.506 19 19z"/><path d="M21 8v14H11"/>
+      </g>
     </svg>
   )
 }

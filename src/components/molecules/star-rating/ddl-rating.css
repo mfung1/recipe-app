@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: left;
+  order: 1;
 }
 
 .ddl-rating_stars {
@@ -9,4 +10,19 @@
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 8px;
   margin-right: 16px;
+}
+
+@media (min-width: 756px) {
+  .ddl-rating_stars {
+    margin: 0 0 12px 0;
+  }
+  .ddl-rating {
+    align-self: end;
+    order: 0;
+    flex-direction: column;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }

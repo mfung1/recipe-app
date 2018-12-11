@@ -7,7 +7,7 @@ const IconWithText = (props) => {
   return (
     <div className="ddl-icn-txt">
       <TheIcon icon={props.icon}/>
-      <p className="ddl-t3 ml-16">{props.txt}</p>
+      <p className="ddl-t2 ml-12 col-blk">{props.txt}</p>
     </div>
   )
 }

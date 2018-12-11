@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-@media (min-width: 504px) {
+@media (min-width: 756px) {
   .ddl-divider {
     max-width: 1px;
     border-right: 1px solid #ccc;

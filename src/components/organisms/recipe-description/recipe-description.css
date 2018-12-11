@@ -1,0 +1,27 @@
+.recipe-desc {
+  flex: 1 1 75%;
+}
+.recipe-head {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.recipe-head .ddl-h1 {
+  order: 1;
+}
+.recipe-head .ddl-t1 {
+  order: 2;
+}
+
+
+@media (min-width: 504px) {
+  .recipe-desc {
+    padding-right: 24px;
+  }
+  .recipe-head .ddl-h1 {
+    order: 0;
+  }
+  .recipe-head .ddl-t1 {
+    order: 2;
+  }
+}

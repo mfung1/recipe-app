@@ -6,3 +6,9 @@ body {
   position: relative;
 }
 * {box-sizing: border-box;}
+
+.ddl-cnt {
+  display: grid;
+  grid-template-rows: 3;
+  grid-gap: 24px;
+}
