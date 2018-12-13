@@ -11,6 +11,9 @@
   vertical-align: middle;
   white-space: nowrap;
   margin-right: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .ddl-btn-cnt {
