@@ -3,8 +3,8 @@ import React from 'react';
 const Person = () => {
   return (
     <svg width="20" height="20" viewBox="0 0 38 38" version="1.1" preserveAspectRatio="xMidyMid meet">
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop---Default" transform="translate(-857.000000, -509.000000)" stroke="#00539F" stroke-width="2.4">
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g id="Desktop---Default" transform="translate(-857.000000, -509.000000)" stroke="#00539F" strokeWidth="2.4">
             <g id="Recipe-card" transform="translate(42.000000, 480.000000)">
                 <g id="Group" transform="translate(825.000000, 36.000000)">
                     <g id="Serves">

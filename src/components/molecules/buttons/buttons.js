@@ -10,7 +10,7 @@ const Button = (props) => {
   modifier += `hllw`
   return (
     <a href="https://www.tesco.com" className={`ddl-btn ${modifier} mr-16 mb-24`}>
-      <span class="ddl-lbl ddl-t2">{props.txt}</span>
+      <span className="ddl-lbl ddl-t2">{props.txt}</span>
       <TheIcon icon="chevron" color={props.filled ? 'wht' : 'blu'}/>
     </a>
   )

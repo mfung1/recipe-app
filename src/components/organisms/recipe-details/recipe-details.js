@@ -8,7 +8,7 @@ const RecipeDetails = () => {
       <div className="ddl-cnt mb-24">
         <IconWithText icon="person" txt="Serves 2 - 6"/>
         <IconWithText icon="time" txt="Prep time 20 mins, 40 mins cook"/>
-        <IconWithText icon="smile" txt="Skill level"/>
+        <IconWithText icon="smile" txt="Skill level" skill={true}/>
       </div>
       <div className="mb-">
         <h2 className="ddl-h3 mb-13">Each serving contains</h2>
