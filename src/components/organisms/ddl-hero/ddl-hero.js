@@ -7,7 +7,7 @@ import RecipeDetails from '../../organisms/recipe-details/recipe-details';
 class Hero extends Component {
   render () {
     return (
-      <section className="ddl-hero ddl-card mb-32">
+      <section className="ddl-hero ddl-card">
         <RecipeDescription/>
         <Divider/>
         <RecipeDetails/>

@@ -13,6 +13,10 @@
   order: 2;
 }
 
+.recipe-body .ddl-t3 {
+  max-width: 100%;
+}
+
 
 @media (min-width: 504px) {
   .recipe-desc {
@@ -23,5 +27,8 @@
   }
   .recipe-head .ddl-t1 {
     order: 2;
+  }
+  .recipe-body .ddl-t3 {
+    max-width: 75%;
   }
 }

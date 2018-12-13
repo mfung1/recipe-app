@@ -18,4 +18,23 @@ body {
   background-color: #fff;
   max-width: 1200px;
   margin: 0 8px;
+  width: 100%;
+}
+
+.ddl-grid {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: 1fr;
+  align-items: left;
+  grid-gap: 32px;
+}
+
+@media (min-width: 756px) {
+  .ddl-card {
+    margin: 0 auto;
+  }
+  .ddl-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

@@ -41,3 +41,18 @@ a {
   font-size: 14px;
   line-height: 20px;
 }
+
+@media (min-width: 756px) {
+  .ddl-h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .ddl-h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .ddl-t3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

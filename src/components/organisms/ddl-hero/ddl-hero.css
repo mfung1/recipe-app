@@ -9,7 +9,7 @@
 
 .ddl-hero {
   margin-top: 200px;
-  display: flex;
+  display: flex; 
   flex-direction: column;
   position: relative;
   z-index: 1;
@@ -21,5 +21,6 @@
   }
   .ddl-hero {
     flex-direction: row;
+    grid-column: 1 / 3;
   }
 }

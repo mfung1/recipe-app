@@ -18,9 +18,11 @@ class App extends Component {
       <main className="ddl-wrapper">
         <Nav txt="Navigation"/>
         <div className="ddl-hero_img" style={{backgroundImage: `url(${Image})`}}></div>
-        <Hero />
-        <Ingredients />
-        <Utensils/>
+        <div className="ddl-grid mb-64">
+          <Hero />
+          <Ingredients />
+          <Utensils/>
+        </div>
         <Nav txt="Footer"/>
       </main>
     );
