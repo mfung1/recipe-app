@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Heading from '../../atoms/Headings/headings';
 import Paragraph from '../../atoms/paragraphs/paragraphs';
 import IconWithText from '../../molecules/icon-with-text/icon-with-text';
 import Button from '../../molecules/buttons/buttons';
@@ -9,7 +8,7 @@ import './ingredients.css';
 class Ingredients extends Component {
   render () {
     return (
-      <section className="ddl-card">
+      <section className="ddl-card ingredients">
         <fieldset id="fields" aria-expanded="false" data-show="false" class="input_group input_group--checkboxRadio">
           <legend class="ddl-h2 mb-8 hide">Ingredients</legend>
           <Paragraph txt="Check the items you need" colour="blk" level="t2"/>

@@ -1,6 +1,7 @@
 h1,
 h2,
-h3 {
+h3,
+legend {
   font-family: boldfont, Arial, Helvetica, sans-serif;
   font-weight: normal;
   margin: 0;

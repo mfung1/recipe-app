@@ -10,6 +10,7 @@ import Image from './components/organisms/ddl-hero/hero.jpg';
 import Nav from './components/organisms/ddl-nav/ddl-nav';
 import Hero from './components/organisms/ddl-hero/ddl-hero';
 import Ingredients from './components/organisms/ingredients/ingredients';
+import Utensils from './components/organisms/utensils/utensils';
 
 class App extends Component {
   render () {
@@ -19,6 +20,7 @@ class App extends Component {
         <div className="ddl-hero_img" style={{backgroundImage: `url(${Image})`}}></div>
         <Hero />
         <Ingredients />
+        <Utensils/>
         <Nav txt="Footer"/>
       </main>
     );
