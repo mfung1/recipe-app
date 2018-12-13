@@ -23,15 +23,16 @@ const SkillLevel = (props) => {
   props.points % 1 === 0.5 ? half = true : half = false;
 
   while(x--) {
-    els.push(<Skill key={x+1}/>)
+    els.push(<Skill key={x}/>)
   }
 
   if (half === true) {
-    els.push(<Skill half={true} key={x+1}/>)
+    els.push(<Skill half={true} key='Half'/>)
   }
 
   while (y--) {
-    els.push(<Skill hollow={true} key={y}/>)
+    let k = `id-${y}`
+    els.push(<Skill hollow={true} key={k}/>)
   }
   return (
     <div className="skill-points">

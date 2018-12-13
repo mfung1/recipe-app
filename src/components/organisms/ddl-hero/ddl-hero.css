@@ -13,6 +13,7 @@
   flex-direction: column;
   position: relative;
   z-index: 1;
+ 
 }
 
 @media (min-width: 756px) {

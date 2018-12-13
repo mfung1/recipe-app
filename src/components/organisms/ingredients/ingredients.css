@@ -4,13 +4,6 @@
 }
 
 @media (min-width: 756px) {
-  .ingredients,
-  .utensils {
-    display: inline-block;
-  }
-  .ingredients {
-    margin-right: 32px;
-  }
   .ingredients .ddl-icn-txt {
     position: absolute;
     top: 32px; right: 32px;
@@ -145,12 +138,10 @@
 .ddl-wrapper .input-grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(244px, 1fr));
-  overflow: hidden;
 }
 
 @media (min-width:1008px) {
   .ddl-wrapper .input-grid {
-      max-width: 50%;
       grid-template-columns: repeat(2, minmax(244px, 1fr));
   }
 }

@@ -38,3 +38,12 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.invisible {
+  transform: translateY(50px);
+  opacity: 0;
+}
+.ddl-card.visible {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: transform 3s ease, opacity 1s ease;
+}
