@@ -8,9 +8,6 @@
 }
 
 .ddl-hero {
-  padding: 32px 12px;
-  background-color: #fff;
-  max-width: 1200px;
   margin: 200px 12px 36px;
   display: flex;
   flex-direction: column;
