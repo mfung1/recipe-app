@@ -11,11 +11,7 @@
   grid-gap: 8px;
   margin-right: 16px;
 }
-
-@media (min-width: 756px) {
-  .ddl-rating_stars {
-    margin: 0 0 12px 0;
-  }
+@media (min-width: 1008px) {
   .ddl-rating {
     align-self: end;
     order: 0;
@@ -24,5 +20,8 @@
     position: absolute;
     right: 0;
     top: 0;
+  }
+  .ddl-rating_stars {
+    margin: 0 0 12px 0;
   }
 }

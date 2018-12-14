@@ -1,6 +1,7 @@
 body {
   background-color: #f6f6f6;
-  font-family: 16px;
+  font-size: 16px;
+  margin: 0;
 }
 .ddl-wrapper {
   position: relative;
@@ -24,18 +25,22 @@ body {
 .ddl-grid {
   display: grid;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 8px;
   grid-template-columns: 1fr;
   align-items: left;
   grid-gap: 32px;
 }
 
 @media (min-width: 756px) {
-  .ddl-card {
-    margin: 0 auto;
-  }
   .ddl-grid {
     grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1008px) {
+  .ddl-grid {
+    margin: 0 auto;
   }
 }
 .invisible {

@@ -9,13 +9,13 @@ class Ingredients extends Component {
   constructor () {
     super();
     this.state = {
-      IngredientsClass: 'ddl-card ingredients invisible'
+      IngredientsClass: 'ddl-card ingredients'
     }
   }
 
-  fadeIn = setTimeout(() => {
-    this.setState({IngredientsClass: 'ddl-card ingredients visible'})
-  }, 100);
+  // fadeIn = setTimeout(() => {
+  //   this.setState({IngredientsClass: 'ddl-card ingredients visible'})
+  // }, 100);
 
   render () {
     return (
